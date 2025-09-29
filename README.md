@@ -70,3 +70,6 @@ setup(
 터미널에 test.launch.py 와 medicine_send, medicine_server를 실행해서 시연 가능
 ! 자체 제작 인터페이스를 사용하기 때문에 colcon build 시 pharmacy_interface를 먼저 --packages-select로 진행한 다음 나머지 colcon build 하는 걸 추천함
 - 터미널에 로봇의 브링업, realsense를 실행한 다음 진행해야 함
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
