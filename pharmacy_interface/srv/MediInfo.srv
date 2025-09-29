@@ -1,0 +1,6 @@
+# Request
+string medi_name
+bool is_run
+---
+# Response
+bool get_info

@@ -1,0 +1,26 @@
+{
+  "waypoints": [
+    { "name": "home", "type": "joint", "value": [0, 0, 90, 0, 90, 0] },
+    { "name": "pos1_down", "type": "task", "value": [514.100, 239.090, 32, 18.79, 180, -68.79] }, 
+    { "name": "pos2_down", "type": "task", "value": [512.21, 59.000, 87.42, 7.05, -180, -84.81] }, 
+    { "name": "pos4_1_down_orig", "type": "task", "value": [489.5, -60, 40.6, 1.92, 140.6, 91.2] }, 
+    { "name": "pos4_2_down_orig", "type": "task", "value": [486.771, -177.497, 48.76, 0.378, 145.803, 91.042] }, 
+    { "name": "pos4_3_down", "type": "task", "value": [489.75, -15.59, 131.94, 91.05, 180, 178.57] }, 
+    { "name": "pos4_4_down", "type": "task", "value": [489.76, -231.05, 129.66, 145.42, 180, -126.13] },
+    { "name": "pos4_1_down", "type": "task", "value": [483.373, -59.463, 40.161, 178.135, 179.878, -93.2] },
+    { "name": "pos4_2_down", "type": "task", "value": [483.403, -185.181, 48.136, 178.96, 179.871, -92.327] },
+
+    { "name": "see_box", "type": "task", "value": [262.620, -57.18, 192.8, 97.48, -139.76, -84.96] },
+    { "name": "box_left", "type": "task", "value": [365.05, -313.99, 195.3, 138.57, 180, -129.42] },
+    { "name": "box_center", "type": "task", "value": [293.08, -311.64, 200.52, 85.94, -180, 178.14] },
+    { "name": "box_right", "type": "task", "value": [222.84, -314.38, 207.64, 170.09, 180, -97.81] },
+
+    { "name": "client", "type": "task", "value": [307.388, 337.546, 190.276, 137.337, 179.976, 47.155] }
+    
+    
+  ],
+  "groups": {
+    "box_top": ["box_pos", "box_top1", "box_top2"],
+    "box_close": ["box_top1", "box_top3"]
+  }
+}

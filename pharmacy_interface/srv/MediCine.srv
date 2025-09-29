@@ -1,0 +1,17 @@
+# Request
+bool penzal
+bool sky
+bool tg
+bool zaide
+bool famotidine
+bool somnifacient
+bool allergy
+---
+# Response
+bool penzal
+bool sky
+bool tg
+bool zaide
+bool famotidine
+bool somnifacient
+bool allergy
